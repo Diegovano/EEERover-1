@@ -72,11 +72,11 @@ You can use the 5V or 3.3V nodes to power your own circuit. It is not recommende
  
 <img src="https://user-images.githubusercontent.com/4660308/168095519-44b9d1c9-ec1a-468f-af53-7b428f99cf31.jpg" alt="Photograph of PCB inside Exorock" width="600"/>
 					
-The Exorock is configured by setting a group of DIP switches on the PCB. A push button is used to turn it on and off, and an LED indicates when it is active. A flow chart depicting the operation of the Exolizard is shown below. From standby (inactive) mode, press the button to turn on and observe the LED flashes to determine whether the battery has sufficient charge. After the battery display sequence is complete the Exolizard begins emitting signals according to the mode set up on the DIP switches. The LED flashes a code at intervals to confirm the mode selection and indicate operation.
+The Exorock is configured by setting a group of DIP switches on the PCB. A push button is used to turn it on and off, and an LED indicates when it is active. A flow chart depicting the operation of the Exorock is shown below. From standby (inactive) mode, press the button to turn on and observe the LED flashes to determine whether the battery has sufficient charge. After the battery display sequence is complete the Exorock begins emitting signals according to the mode set up on the DIP switches. The LED flashes a code at intervals to confirm the mode selection and indicate operation.
 
 <img src="exorock-flow.svg" alt="Simplified circuit diagram of the Metro M0 Express and EEERover PCB power supplies" width="600"/>
 		
-Pushing the button during operation will reset the Exolizard --- this is necessary to change the operation mode. A second press soon afterwards will turn the device off. If the Exorock is left operating for five minutes it will automatically power off to preserve the battery.
+Pushing the button during operation will reset the Exorock --- this is necessary to change the operation mode. A second press soon afterwards will turn the device off. If the Exorock is left operating for five minutes it will automatically power off to preserve the battery.
 			
 The Exorock cannot simulate the magnetic property in an readily-configurable manner so you are provided with a small magnet to test this functionality. In the demo, magnets will be placed inside the Exorock approximately 10mm below the highest point on its top. The polarity of the magent in your kit depends on the colour of the disc:
 
